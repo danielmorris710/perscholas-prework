@@ -1,0 +1,96 @@
+
+body{background-color: black;
+	border: solid;
+	margin: 10px;
+	padding: 15px;
+	padding: 20px;}
+nav{text-align: center;}	
+h1{ color:white;
+	font-family: cursive;
+	font-weight: 400px;
+	font-size: .5in;
+	text-align: center;
+	text-decoration: underline;
+	}
+h1 span {color:orange;
+	font-family:'Times New Roman', Times, serif;
+	font-weight:400px;
+	font-size: .5in;
+	text-align: center;
+	}
+h3 span{color:red;
+	font-family:'Times New Roman', Times, serif;
+	font-weight:400px;
+	font-size: .5in;
+	text-align: center;
+	}
+h3{ color:white; 
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 400px;
+	font-size: 1cm;
+	text-align: center;
+	text-decoration: none;
+	}	
+h2{ color:white; 
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: 400px;
+	font-size: .75cm;
+	text-decoration: none;
+	}		
+#freedom{ color: wheat; }
+p{ color: yellow;
+	font-size: 5mm;	
+			max-width: 600px;
+			margin: 0 auto}
+.para1{color: limegreen;
+		max-width: 600px;
+		margin: 0 auto}
+li{ color: yellow;
+	font-style: italic;}
+a{color: purple;
+	text-align: center;}
+#div1{ background-color: green;
+		border: solid;
+		position: relative}
+#div2{background-color: blue;}
+#div3{background-color: yellow;}
+#div4{background-color: red;}
+#div1,#div2,#div3,#div4{border:dashed; 
+					position: static;}
+#routine{ color: red; }		
+#parastories{font-style: italic;
+				width: 600px;
+				margin: 0 auto;}
+
+table{	color: red;
+		text-align: center;}
+form{
+	padding: 15px;
+	background-color: orange;
+	font-style: italic;
+	border-style: solid;
+	font-weight: 900px;
+	max-width: 200px;
+	}
+input[type=button]{
+		color: black;
+		background-color: white;
+		padding: 5px;
+		}	
+input[type="button"]:hover{
+	border: solid;
+	background-color: blue;
+	color: white;
+	}
+input[type="text"]:focus{
+	background-color: skyblue;
+	color: black;
+	width: 100%;
+	transition: 2s;
+	}	
+form:hover{
+	background-color:rgb(197, 138, 219);
+	}
+#div3 form {float:right;
+			width:15%;}
+
